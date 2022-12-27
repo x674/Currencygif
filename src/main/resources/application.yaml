@@ -1,0 +1,9 @@
+application:
+  baseSymbol: "USD"
+  api:
+    currency:
+      Host: "https://openexchangerates.org/api"
+      AppID: "AppID"
+    giphy:
+      Host: "https://api.giphy.com/v1"
+      AppID: "AppID"
