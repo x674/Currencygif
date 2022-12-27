@@ -1,0 +1,15 @@
+package com.x674.currencygif;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@SpringBootApplication
+public class CurrencygifApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CurrencygifApplication.class, args);
+    }
+
+}
